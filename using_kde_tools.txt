@@ -1,0 +1,4 @@
+====== Widgets ======
+Active Window Control (kotelnik)
+	buttons location : ~/.local/share/aurorae/themes/McMojave
+
