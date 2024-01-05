@@ -9,3 +9,15 @@ GeForce RTX 3050 Mobile
 ATI Technologies Inc
 	video-hybrid-amd-nvidia-prime
 	video-linux
+
+===== PLASMA Settings ======
+Plasma Style : MacSonoma-Dark
+Window Decorations : McMojave
+Fonts : Roboto Mono Medium [GOOG] (all fonts) 
+Compositor Settings === 
+	Compositing
+		[X] Enable on startup 
+		[X] Allow applications to block compositing
+	Latency : Force smoothest animations
+	Keep window thumbnails : Only for Shown Windows
+ 
