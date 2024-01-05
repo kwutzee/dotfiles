@@ -2,3 +2,10 @@
 Active Window Control (kotelnik)
 	buttons location : ~/.local/share/aurorae/themes/McMojave
 
+====== VGA drivers ====== 
+GeForce RTX 3050 Mobile 
+	video-hybrid-amd-nvidia-prime
+	video-linux 
+ATI Technologies Inc
+	video-hybrid-amd-nvidia-prime
+	video-linux
