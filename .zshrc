@@ -13,7 +13,7 @@ typeset -g POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(
 	# vcs
 	# virtualenv
 )
-typeset -g POWERLEVEL9K_PROMPT_CHAR_{OK,ERROR}_VIINS_CONTENT_EXPANSION=' $'
+typeset -g POWERLEVEL9K_PROMPT_CHAR_{OK,ERROR}_VIINS_CONTENT_EXPANSION=''
 typeset -g POWERLEVEL9K_RIGHT_PROMPT_FIRST_SEGMENT_START_SYMBOL=' '
 
 
@@ -35,3 +35,5 @@ alias gacp='git add . ; git commit; git push --force'
 bindkey '^[j' autosuggest-accept
 alias fetch='neofetch' 
 
+applications_binaries_paths=$(python /home/kwutzee/.dotfiles/applications.py)
+export PATH="$PATH:$applications_binaries_paths"
