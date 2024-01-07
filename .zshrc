@@ -35,5 +35,3 @@ alias gacp='git add . ; git commit; git push --force'
 bindkey '^[j' autosuggest-accept
 alias fetch='neofetch' 
 # alias fetch='neofetch --ascii_distro arch'
-export PATH=$PATH:/home/wemakoz/apps/links/
-export XDG_CONFIG_HOME=~/.config/
