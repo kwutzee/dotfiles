@@ -34,4 +34,4 @@ alias gacp='git add . ; git commit; git push --force'
 # alias neofetch='neofetch --ascii_distro arch'
 bindkey '^[j' autosuggest-accept
 alias fetch='neofetch' 
-# alias fetch='neofetch --ascii_distro arch'
+
