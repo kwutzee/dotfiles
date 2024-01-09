@@ -31,7 +31,7 @@ alias ch="code ."
 alias c=code 
 alias cleanpull='git reset --hard'
 alias gacp='git add . ; git commit; git push --force'
-alias update_desktop_items="sudo ln -s ~/.local/share/applications/* ."
+alias update_desktop_items="sudo ln -s ~/.local/share/applications/* /usr/share/applications/"
 # alias neofetch='neofetch --ascii_distro arch'
 bindkey '^[j' autosuggest-accept
 alias fetch='neofetch' 
