@@ -1,0 +1,14 @@
+{
+    "workbench.colorTheme": "Default Dark Modern", 
+    "editor.mouseWheelZoom": true, 
+    "editor.fontFamily": "'SF Mono','Droid Sans Mono', 'monospace', monospace", 
+    "editor.fontSize": 16, 
+    "files.autoSave": "onWindowChange", 
+    "editor.fontWeight": "500",
+    "workbench.iconTheme": "helium-icon-theme",
+    "window.titleBarStyle": "native",
+    "window.density.editorTabHeight": "compact",
+    "workbench.activityBar.location": "hidden",
+    "explorer.compactFolders": false, 
+    
+}
