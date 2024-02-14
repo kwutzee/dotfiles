@@ -1,5 +1,2 @@
-if vim.g.vscode then 
-    -- VSCODE settings 
-else 
-    -- native settings 
-end 
+-- bootstrap lazy.nvim, LazyVim and your plugins
+require("config.lazy")

@@ -24,7 +24,11 @@ alias vact="source venv/bin/activate"
 alias g=git 
 alias v=nvim 
 alias vim=nvim
-alias ls=lsd
+alias eza='eza --icons'
+alias ls=eza
+alias lsa="ls -a"
+alias ll="ls -la"
+alias lla="ll -a"
 alias :q=exit
 alias runserver="py manage.py runserver"
 alias ch="code ."
@@ -35,6 +39,9 @@ alias update_desktop_items="sudo ln -s ~/.local/share/applications/* /usr/share/
 # alias neofetch='neofetch --ascii_distro arch'
 bindkey '^[j' autosuggest-accept
 alias fetch='neofetch' 
+alias cls=clear
+alias srunserver='sudo python manage.py runserver'
+alias runserver='python manage.py runserver'
 
 applications_binaries_paths=$(python /home/kwutzee/.dotfiles/applications.py)
 export PATH="$PATH:$applications_binaries_paths"
