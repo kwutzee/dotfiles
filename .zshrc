@@ -42,6 +42,6 @@ alias fetch='neofetch'
 alias cls=clear
 alias srunserver='sudo python manage.py runserver'
 alias runserver='python manage.py runserver'
-
+alias flushredis="redis-cli flushall; clear; echo Cache Cleared"
 applications_binaries_paths=$(python /home/kwutzee/.dotfiles/applications.py)
 export PATH="$PATH:$applications_binaries_paths"

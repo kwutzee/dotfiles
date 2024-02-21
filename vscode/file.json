@@ -10,8 +10,7 @@
     "editor.fontSize": 16,
     "editor.mouseWheelZoom": true,
     "editor.rulers": [86, 100],
-    "editor.smoothScrolling": true ,
-    
+    "editor.smoothScrolling": true ,    
     
     "extensions.experimental.affinity": {
         "asvetliakov.vscode-neovim": 1
@@ -36,7 +35,7 @@
     "terminal.integrated.fontFamily": "'Cascadia Mono'",
     "terminal.integrated.tabs.enabled": false ,
     
-    "workbench.activityBar.location": "hidden",
+    "workbench.activityBar.location": "side",
     "workbench.editor.showTabs": "multiple", 
     "workbench.colorCustomizations": {}, 
     "workbench.iconTheme": "helium-icon-theme" ,
@@ -47,4 +46,8 @@
     "window.density.editorTabHeight": "compact",
     "window.zoomPerWindow": false, 
 
+    "postman.telemetry.enabled": false,
+    "editor.stickyScroll.enabled": true,
+    "breadcrumbs.enabled": true ,
+    
 }
