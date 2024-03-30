@@ -1,4 +1,4 @@
-{    
+{        
     "editor.dragAndDrop": false,
     "editor.codeLens": false,
     "editor.cursorStyle": "line",
@@ -35,7 +35,7 @@
     "terminal.integrated.fontFamily": "'Cascadia Mono'",
     "terminal.integrated.tabs.enabled": false ,
     
-    "workbench.activityBar.location": "side",
+    "workbench.activityBar.location": "hidden",
     "workbench.editor.showTabs": "multiple", 
     "workbench.colorCustomizations": {}, 
     "workbench.iconTheme": "helium-icon-theme" ,

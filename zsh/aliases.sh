@@ -14,6 +14,7 @@ alias :q=exit
 alias runserver="py manage.py runserver"
 alias ch="code ."
 alias c=code 
+alias ci=code-insiders
 alias cleanpull='git reset --hard'
 alias gacp='git add . ; git commit; git push --force'
 alias update_desktop_items="sudo ln -s ~/.local/share/applications/* /usr/share/applications/"
