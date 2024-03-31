@@ -3,4 +3,3 @@ update_code(){
     tar -xf $HOME/code.tar.gz -C $HOME/Applications/
     rm $HOME/code.tar.gz
 }
-# hehehe booy, now i can write zsh scripts 

@@ -1,5 +1,5 @@
 
-alias py=python 
+# alias py=python 
 alias ipy=ipython
 alias vact="source venv/bin/activate" 
 alias g=git 

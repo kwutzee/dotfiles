@@ -6,7 +6,7 @@
     "editor.cursorBlinking": "smooth",
     "editor.cursorSmoothCaretAnimation": "on",
     "editor.fontWeight": "500",
-    "editor.fontFamily": "'Cascadia Mono','SF Mono','Droid Sans Mono', 'monospace', monospace",
+    "editor.fontFamily": "'Cascadia Mono','SF Mono', 'Source Code Pro' , 'Droid Sans Mono', 'monospace', monospace",
     "editor.fontSize": 16,
     "editor.mouseWheelZoom": true,
     "editor.rulers": [86, 100],
@@ -45,8 +45,7 @@
     "window.titleBarStyle": "native",
     "window.density.editorTabHeight": "compact",
     "window.zoomPerWindow": false, 
-
-    "postman.telemetry.enabled": false,
+    
     "editor.stickyScroll.enabled": true,
     "breadcrumbs.enabled": true ,
     
