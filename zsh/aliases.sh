@@ -1,5 +1,5 @@
 
-# alias py=python 
+alias py=python 
 alias ipy=ipython
 alias vact="source venv/bin/activate" 
 alias g=git 
@@ -18,8 +18,10 @@ alias ci=code-insiders
 alias cleanpull='git reset --hard'
 alias gacp='git add . ; git commit; git push --force'
 alias update_desktop_items="sudo ln -s ~/.local/share/applications/* /usr/share/applications/"
-alias fetch='neofetch' 
+alias fetch='fastfetch --logo kali' 
 alias cls=clear
 alias srunserver='sudo python manage.py runserver'
 alias runserver='python manage.py runserver'
 alias flushredis="redis-cli flushall; clear; echo Cache Cleared"
+alias pycharm="pycharm.sh"
+alias ii=open

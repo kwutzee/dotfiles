@@ -6,7 +6,7 @@
     "editor.cursorBlinking": "smooth",
     "editor.cursorSmoothCaretAnimation": "on",
     "editor.fontWeight": "500",
-    "editor.fontFamily": "'Cascadia Mono','SF Mono', 'Source Code Pro' , 'Droid Sans Mono', 'monospace', monospace",
+    "editor.fontFamily": "'Cascadia Code', 'SF Mono', 'Source Code Pro' , 'Droid Sans Mono', 'monospace', monospace",
     "editor.fontSize": 16,
     "editor.mouseWheelZoom": true,
     "editor.rulers": [86, 100],
@@ -15,27 +15,19 @@
     "extensions.experimental.affinity": {
         "asvetliakov.vscode-neovim": 1
     },
+
     
+
     "explorer.confirmDelete": false, 
     "explorer.confirmDragAndDrop": false, 
     "explorer.compactFolders": false, 
     "explorer.decorations.colors": false, 
     
     "files.autoSave": "onWindowChange", 
-    "files.exclude": {
-        "**/.git": true,
-        "**/.svn": true,
-        "**/.hg": true,
-        "**/CVS": true,
-        "**/.DS_Store": true,
-        "**/Thumbs.db": true, 
-        "**/__pycache__" : true, 
-    }, 
-    
     "terminal.integrated.fontFamily": "'Cascadia Mono'",
-    "terminal.integrated.tabs.enabled": false ,
+
     
-    "workbench.activityBar.location": "hidden",
+    "workbench.activityBar.location": "bottom",
     "workbench.editor.showTabs": "multiple", 
     "workbench.colorCustomizations": {}, 
     "workbench.iconTheme": "helium-icon-theme" ,
@@ -46,7 +38,12 @@
     "window.density.editorTabHeight": "compact",
     "window.zoomPerWindow": false, 
     
-    "editor.stickyScroll.enabled": true,
-    "breadcrumbs.enabled": true ,
+    "editor.stickyScroll.enabled": false,
+    "terminal.integrated.defaultProfile.linux": "zsh",
+    "security.workspace.trust.enabled": false,
+    "window.customTitleBarVisibility": "never",
+    "git.openRepositoryInParentFolders": "always",
+    
+    
     
 }
