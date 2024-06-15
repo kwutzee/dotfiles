@@ -25,3 +25,4 @@ alias runserver='python manage.py runserver'
 alias flushredis="redis-cli flushall; clear; echo Cache Cleared"
 alias pycharm="pycharm.sh"
 alias ii=open
+alias py310=/home/kwutzee/Applications/Python-3.10.12/python
