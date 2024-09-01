@@ -5,7 +5,7 @@
     "editor.cursorWidth": 3,
     "editor.cursorBlinking": "smooth",
     "editor.cursorSmoothCaretAnimation": "on",
-    "editor.fontWeight": "500",
+    "editor.fontWeight": "400",
     "editor.fontFamily": "'Cascadia Code', 'SF Mono', 'Source Code Pro' , 'Droid Sans Mono', 'monospace', monospace",
     "editor.fontSize": 16,
     "editor.mouseWheelZoom": true,
@@ -32,8 +32,7 @@
     "workbench.iconTheme": "helium-icon-theme",
     
     "workbench.tree.indent": 15, 
-
-    "window.titleBarStyle": "native",
+    
     "window.density.editorTabHeight": "compact",
     "window.zoomPerWindow": false, 
     
@@ -66,5 +65,6 @@
         "*.db3": "${capture}.${extname}-*",
         "*.sdb": "${capture}.${extname}-*",
         "*.s3db": "${capture}.${extname}-*"
-    }
+    },
+    "redhat.telemetry.enabled": false
 }
