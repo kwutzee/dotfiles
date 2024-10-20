@@ -66,5 +66,9 @@
         "*.sdb": "${capture}.${extname}-*",
         "*.s3db": "${capture}.${extname}-*"
     },
-    "redhat.telemetry.enabled": false
+    "redhat.telemetry.enabled": false,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "[python]": {
+        "diffEditor.ignoreTrimWhitespace": true
+    }
 }
