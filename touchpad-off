@@ -1,0 +1,4 @@
+#!/bin/sh
+xinput --set-prop 15 "Device Enabled" 0
+# xinput list -> get id 
+# then replace --set-prop 15 with its actual id 
