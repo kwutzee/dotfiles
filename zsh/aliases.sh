@@ -1,7 +1,7 @@
 
 alias py=python 
 alias ipy=ipython
-alias vact="source venv/bin/activate" 
+alias vact="source .venv/bin/activate" 
 alias g=git 
 alias v=nvim 
 alias vim=nvim

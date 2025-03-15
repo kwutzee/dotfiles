@@ -3,11 +3,11 @@
     "editor.codeLens": false,
     "editor.cursorStyle": "line",
     "editor.cursorWidth": 3,
-    "editor.cursorBlinking": "smooth",
+    "editor.fontWeight": "500",
+    "editor.lineHeight": 1.2,
     "editor.cursorSmoothCaretAnimation": "on",
-    "editor.fontWeight": "400",
-    "editor.fontFamily": "'Cascadia Code', 'SF Mono', 'Source Code Pro' , 'Droid Sans Mono', 'monospace', monospace",
-    "editor.fontSize": 16,
+    "editor.fontFamily": " 'Roboto Mono' ,'Cascadia Code', 'SF Mono', 'Source Code Pro' , 'Droid Sans Mono', 'monospace', monospace",
+    "editor.fontSize": 14,
     "editor.mouseWheelZoom": true,
     "editor.rulers": [86, 100],
     "editor.smoothScrolling": true ,    
@@ -36,7 +36,7 @@
     "window.density.editorTabHeight": "compact",
     "window.zoomPerWindow": false, 
     
-    "editor.stickyScroll.enabled": false,
+    "editor.stickyScroll.enabled": true,
     "terminal.integrated.defaultProfile.linux": "zsh",
     "security.workspace.trust.enabled": false,
     "git.openRepositoryInParentFolders": "always",
@@ -50,7 +50,7 @@
         "**/CVS": true,
         "**/.DS_Store": true,
         "**/Thumbs.db": true, 
-        "**/venv/" : true, 
+        "**/.venv/" : true, 
     },
     "explorer.fileNesting.patterns": {
         "*.ts": "${capture}.js",
@@ -69,6 +69,12 @@
     "redhat.telemetry.enabled": false,
     "diffEditor.ignoreTrimWhitespace": false,
     "[python]": {
-        "diffEditor.ignoreTrimWhitespace": true
-    }
+        "diffEditor.ignoreTrimWhitespace": false
+    }, 
+    "window.menuBarVisibility": "hidden", 
+    "window.titleBarStyle": "native",
+    "git.enableSmartCommit": true,
+    "chat.commandCenter.enabled": false,
+    "window.customTitleBarVisibility": "never",
+    
 }
